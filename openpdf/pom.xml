@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.github.librepdf</groupId>
         <artifactId>openpdf-parent</artifactId>
-        <version>1.2.7-SNAPSHOT</version>
+        <version>1.2.8-SNAPSHOT</version>
     </parent>
 
     <artifactId>openpdf</artifactId>
@@ -14,7 +14,7 @@
     <properties>
         <java-module-name>com.github.librepdf.openpdf</java-module-name>
         <bouncycastle.version>1.60</bouncycastle.version>
-        <juniversalchardet.version>2.1.0</juniversalchardet.version>
+        <juniversalchardet.version>2.3.0</juniversalchardet.version>
         <imageio-tiff.version>3.4.1</imageio-tiff.version>
     </properties>
 
@@ -46,8 +46,9 @@
         <!-- Test Dependencies -->
 
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${jupiter.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

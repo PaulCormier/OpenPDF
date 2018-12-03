@@ -4,8 +4,8 @@ OpenPDF is a Java library for creating and editing PDF files with a LGPL and MPL
 
 [![Join the chat at https://gitter.im/LibrePDF/OpenPDF](https://badges.gitter.im/LibrePDF/OpenPDF.svg)](https://gitter.im/LibrePDF/OpenPDF) [![Build Status](https://travis-ci.org/LibrePDF/OpenPDF.svg?branch=master)](https://travis-ci.org/LibrePDF/OpenPDF) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.librepdf/openpdf) [![License (LGPL version 3.0)](https://img.shields.io/badge/license-GNU%20LGPL%20version%203.0-blue.svg?style=flat-square)](http://opensource.org/licenses/LGPL-3.0) [![License (MPL)](https://img.shields.io/badge/license-Mozilla%20Public%20License-yellow.svg?style=flat-square)](http://opensource.org/licenses/MPL-2.0)
 
-## OpenPDF version 1.2.6 released 2018-11-29 ##
-Get version 1.2.6 here - https://github.com/LibrePDF/OpenPDF/releases/tag/1.2.6
+## OpenPDF version 1.2.7 released 2018-12-03 ##
+Get version 1.2.7 here - https://github.com/LibrePDF/OpenPDF/releases/tag/1.2.7
 
 - [Previous releases](https://github.com/LibrePDF/OpenPDF/releases)
 
@@ -16,7 +16,7 @@ Add this to your pom.xml file to use the latest version of OpenPDF:
         <dependency>
             <groupId>com.github.librepdf</groupId>
             <artifactId>openpdf</artifactId>
-            <version>1.2.6</version>
+            <version>1.2.7</version>
         </dependency>
 
 There is a separate Java 7 compatible branch and release.
@@ -30,7 +30,7 @@ Mozilla Public License Version 2.0 - http://www.mozilla.org/MPL/2.0/
 We want OpenPDF to consist of source code which is consistently licensed with the LGPL and MPL licences only. This also means that any new contributions to the project must have a dual LGPL and MPL license only.
 
 ## Docs ##
-See [examples](pdf-toolbox/src/test/java/com/lowagie/examples/) and [JavaDoc](https://librepdf.github.io/OpenPDF/docs-1-1-0/).
+See [examples](pdf-toolbox/src/test/java/com/lowagie/examples/) and [JavaDoc](https://librepdf.github.io/OpenPDF/docs-1-2-7/?).
 
 ## Background ##
 
@@ -54,7 +54,7 @@ Make sure that your contributions can be released with a dual LGPL and MPL licen
     - Provider
     - PKIX/CMS
  - [TwelveMonkeys imageio-tiff](https://github.com/haraldk/TwelveMonkeys/) - optional by default, but required if TIFF image support is needed.    
- - JUnit 4 - for unit testing
+ - JUnit 5 - for unit testing
  - JFreeChart - for testing graphical examples
    - JFreeChart
    - JCommon
